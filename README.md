@@ -9,3 +9,7 @@ go get github.com/Zverushko/punycode
 ## Using
 
 import "github.com/Zverushko/punycode"
+
+punycode.ToASCI("лялял.рф") // xn--k1aaa2fbb.xn--p1ai 
+
+punycode.ToUnicode("xn--k1aaa2fbb.xn--p1ai") // лялял.рф
